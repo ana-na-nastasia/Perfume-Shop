@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+  max-width: 370px;
+}
+
+.header {
+  padding: 25px 0;
+  border-bottom: 1px solid black;
+  
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    
+    &__link {
+      color: black;
+      text-decoration: none;
+      transition: all .2s;
+      
+      &:hover {
+        opacity: .4;
+      }
+    }
+  }
+}
+
+.perfume-zielinski-rozen {
+  padding: 340px 0 50px;
+  text-align: center;
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/560aeb113015803.601fb6d6c1e00.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  .perfume-name {
+    color: white;
+    font-size: 3.3rem;
+    font-weight: 900;
+  }
+  
+  &__description {
+    color: white;
+    max-width: 580px;
+    margin: 0 auto;
+    font-size: .775rem;
+  }
+}
+
+.perfume-option {
+  padding: 55px 0 50px;
+  
+  .wrapper {
+    padding: 0 30px;
+    
+    .perfume-vanilla-blend {
+      display: flex;
+      justify-content: space-between;
+      
+      &__subtitle {
+        text-transform: uppercase;
+        font-size: .6rem;
+        margin-bottom: 10px;
+        letter-spacing: 4px;
+        font-weight: 700;
+      }
+      
+      &__title {
+        font-size: 1.1rem;
+        text-align: right;
+        font-weight: 800; 
+      }
+      
+      &__card {
+        margin: 0 auto;
+      }
+      
+      &__about {
+        max-width: 50%;
+      }
+      
+      &__description {
+        font-size: .76rem;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+      }
+      
+      &__price {
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        font-size: 1.1rem;
+        margin-bottom: 25px;        
+      }
+    }
+  }
+}
+
+.button {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: .6rem;
+  letter-spacing: 2px;
+  border: 1px solid black;
+  padding: 15px;
+  transition: all .3s;
+  
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
