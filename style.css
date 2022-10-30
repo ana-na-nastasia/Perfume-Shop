@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+  max-width: 370px;
+}
+
+.header {
+  padding: 25px 0;
+  border-bottom: 1px solid black;
+}
+.header .nav {
+  display: flex;
+  justify-content: space-around;
+}
+.header .nav__link {
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.header .nav__link:hover {
+  opacity: 0.4;
+}
+
+.perfume-zielinski-rozen {
+  padding: 340px 0 50px;
+  text-align: center;
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/560aeb113015803.601fb6d6c1e00.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.perfume-zielinski-rozen .perfume-name {
+  color: white;
+  font-size: 3.3rem;
+  font-weight: 900;
+}
+.perfume-zielinski-rozen__description {
+  color: white;
+  max-width: 580px;
+  margin: 0 auto;
+  font-size: 0.775rem;
+}
+
+.perfume-option {
+  padding: 55px 0 50px;
+}
+.perfume-option .wrapper {
+  padding: 0 30px;
+}
+.perfume-option .wrapper .perfume-vanilla-blend {
+  display: flex;
+  justify-content: space-between;
+}
+.perfume-option .wrapper .perfume-vanilla-blend__subtitle {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  margin-bottom: 10px;
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+.perfume-option .wrapper .perfume-vanilla-blend__title {
+  font-size: 1.1rem;
+  text-align: right;
+  font-weight: 800;
+}
+.perfume-option .wrapper .perfume-vanilla-blend__card {
+  margin: 0 auto;
+}
+.perfume-option .wrapper .perfume-vanilla-blend__about {
+  max-width: 50%;
+}
+.perfume-option .wrapper .perfume-vanilla-blend__description {
+  font-size: 0.76rem;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.perfume-option .wrapper .perfume-vanilla-blend__price {
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.button {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  border: 1px solid black;
+  padding: 15px;
+  transition: all 0.3s;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+}
